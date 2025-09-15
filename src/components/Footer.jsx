@@ -11,25 +11,25 @@ function Footer() {
     {
       name: "GitHub",
       icon: <FiGithub />,
-      url: "https://github.com",
+      url: "https://github.com/janmejayananda955",
       color: "text-gray-400",
     },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      url: "https://linkdin.com",
+      url: "https://www.linkedin.com/in/janmejaya-nanda-a45478288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       color: "text-blue-400",
     },
     {
       name: "Twiter",
       icon: <FiTwitter />,
-      url: "https://twitter.com",
+      url: "https://x.com/Janmejaya_955?t=08mD9OBmjYggM5jB2v6BvA&s=08",
       color: "text-sky-400",
     },
     {
       name: "Email",
       icon: <IoMailOutline />,
-      url: "test@gmail.com",
+      url: "https://mail.google.com/mail/?view=cm&fs=1&to=janmejayananda326@gmail.com",
       color: "text-green-400",
     },
   ];

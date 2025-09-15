@@ -7,6 +7,7 @@ import {
   FaJava,
   FaGitAlt,
   FaGithub,
+  FaPython,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -111,27 +112,34 @@ export const skills = {
       },
       {
         id: 10,
+        name: "Python",
+        level: "45%",
+        icon: <FaPython className="text-yellow-600 text-2xl" />,
+        color: "bg-yellow-400",
+      },
+      {
+        id: 11,
         name: "JSP / Servlet",
         level: "70%",
         icon: <SiJirasoftware className="text-blue-500 text-2xl" />,
         color: "bg-blue-500",
       },
       {
-        id: 11,
+        id: 12,
         name: "JDBC",
         level: "65%",
         icon: <SiDatabricks className="text-green-700 text-2xl" />,
         color: "bg-green-700",
       },
       {
-        id: 12,
+        id: 13,
         name: "Spring Boot (Learning)",
         level: "40%",
         icon: <SiSpringboot className="text-green-500 text-2xl" />,
         color: "bg-green-500",
       },
       {
-        id: 13,
+        id: 14,
         name: "REST APIs (Basic)",
         level: "40%",
         icon: <SiApachesolr className="text-gray-600 text-2xl" />,
@@ -144,7 +152,7 @@ export const skills = {
     description: "Managing and optimizing data storage ",
     items: [
       {
-        id: 14,
+        id: 15,
         name: "MySQL",
         level: "70%",
         icon: (
@@ -159,14 +167,14 @@ export const skills = {
     description: "Commonly used tools in development workflow",
     items: [
       {
-        id: 15,
+        id: 14,
         name: "Git",
         level: "80%",
         icon: <FaGitAlt className="text-red-500 text-2xl" />,
         color: "bg-red-500",
       },
       {
-        id: 16,
+        id: 15,
         name: "GitHub",
         level: "70%",
         icon: (
@@ -175,7 +183,7 @@ export const skills = {
         color: "bg-gray-800",
       },
       {
-        id: 17,
+        id: 16,
         name: "Postman",
         level: "60%",
         icon: (
@@ -184,14 +192,14 @@ export const skills = {
         color: "bg-orange-600",
       },
       {
-        id: 18,
+        id: 17,
         name: "Eclipse",
         level: "70%",
         icon: <SiEclipseide className="text-indigo-700 text-2xl" />,
         color: "bg-indigo-500",
       },
       {
-        id: 19,
+        id: 18,
         name: "IntelliJ IDEA",
         level: "65%",
         icon: <SiIntellijidea className="text-black bg-white text-2xl" />,
@@ -213,12 +221,12 @@ export const CONTACT_INFO = [
   {
     icon: <CiLocationOn />,
     label: "Location",
-    value: "New Delhi, India",
+    value: "Odisha, India",
   },
   {
     icon: <IoMdMail/>,
     label: "Email",
-    value: "test@gmail.com",
+    value: "janmejayananda326@gmail.com",
   },
   {
     icon: <IoCallOutline/>,
@@ -231,28 +239,28 @@ export const SOCIAL_LINKS = [
   {
     name:"Github",
     icon: <FaGithub />,
-    url:"https://github.com",
+    url:"https://github.com/janmejayananda955",
     color:"hover:text-gray-400",
     bgColor:"hover:bg-gray-800",
   },
   {
     name:"Linkdin",
     icon: <FaLinkedin/>,
-    url: " https://linkdin.com ",
+    url: " https://www.linkedin.com/in/janmejaya-nanda-a45478288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
     color:"hover:text-blue-400",
     bgColor:"hover:bg-blue-500/10",
   },
   {
     name:"Twitter",
     icon: <FaSquareXTwitter/>,
-    url: " https://twitter.com ",
+    url: " https://x.com/Janmejaya_955?t=08mD9OBmjYggM5jB2v6BvA&s=08 ",
     color:"hover:text-sky-400",
     bgColor:"hover:bg-sky-500/10",
   },
   {
     name:"Email",
     icon: <IoMdMail/>,
-    url: " test@gmail.com ",
+    url: " https://mail.google.com/mail/?view=cm&fs=1&to=janmejayananda326@gmail.com ",
     color:"hover:text-green-400",
     bgColor:"hover:bg-green-500/10",
   },

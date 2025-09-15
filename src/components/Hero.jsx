@@ -25,18 +25,18 @@ export default function Hero() {
       >
         {/* Left Section */}
         <section
-          className="flex-1 mr-28 md:text-left mt-10 md:mt-0 relative"
+          className="flex-1 mr-10 sm:mr-28 md:text-left mt-10 md:mt-0 w-2xs sm:w-0 relative"
           data-aos="fade-up"
           data-aos-delay="500"
         >
           <div className="absolute -z-10 w-60 h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 -left-12"></div>
           <header>
-            <h1 className="text-4xl mb-2 mx-auto sm:text-4xl md:text-5xl font-bold text-white mb4">
+            <h1 className="text-4xl mb-2 mx-auto sm:text-4xl md:text-5xl font-bold text-white">
               Janmejaya Nanda
             </h1>
             <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-white mb-2">
               I'm{" "}
-              <span className="text-[#3e0f4a] md:text-[#c744ec] font-semibol ">
+              <span className="text-[#380e43] md:text-[#c744ec] font-semibol ">
                 <Typewriter
                   words={[
                     `Web Developer`,
@@ -56,13 +56,13 @@ export default function Hero() {
           <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6 mx-auto font-serif">
             I’m a passionate developer who loves building impactful digital
             experiences. With a strong foundation in{" "}
-            <span className="text-purple-400">Java</span>,
-            <span className="text-blue-400"> Spring Boot</span>, and modern web
+            <span className="text-cyan-500 font-bold">Java</span>,
+            <span className="text-cyan-500 font-bold"> Spring Boot</span>, and modern web
             technologies, I enjoy crafting clean, scalable, and user-friendly
             solutions. Always curious and eager to learn, I turn ideas into
             reality through code.
           </p>
-
+                  {/* icons */}
           <div className="flex items-center space-x-4 mb-6">
             <a href="#">
               <img
@@ -111,8 +111,8 @@ export default function Hero() {
         </section>
         <figure
           data-aos="zoom-in"
-          data-aos-delay="500"
-          className="flex-1 flex justify-center md:justify-end mt-0"
+          data-aos-delay="200"
+          className="flex-1 flex justify-center md:justify-end mt-5"
         >
           <img
             src={imghero}
