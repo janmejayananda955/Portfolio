@@ -27,6 +27,14 @@ import { FaCode } from "react-icons/fa6";
 import { IoServerOutline } from "react-icons/io5";
 import { FiServer } from "react-icons/fi";
 import { LiaToolsSolid } from "react-icons/lia";
+
+import { IoMdMail  } from "react-icons/io";
+import { CiLocationOn } from "react-icons/ci";
+import { IoCallOutline } from "react-icons/io5";
+import { FaLinkedin  } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+
+
 export const skills = {
   Frontend: {
     catagoryicon: <FaCode className="  text-blue-700" />,
@@ -199,3 +207,53 @@ export const skills = {
     ],
   },
 };
+
+
+export const CONTACT_INFO = [
+  {
+    icon: <CiLocationOn />,
+    label: "Location",
+    value: "New Delhi, India",
+  },
+  {
+    icon: <IoMdMail/>,
+    label: "Email",
+    value: "test@gmail.com",
+  },
+  {
+    icon: <IoCallOutline/>,
+    label: "Phone",
+    value: "+91 12345 67890",
+  },
+];
+
+export const SOCIAL_LINKS = [
+  {
+    name:"Github",
+    icon: <FaGithub />,
+    url:"https://github.com",
+    color:"hover:text-gray-400",
+    bgColor:"hover:bg-gray-800",
+  },
+  {
+    name:"Linkdin",
+    icon: <FaLinkedin/>,
+    url: " https://linkdin.com ",
+    color:"hover:text-blue-400",
+    bgColor:"hover:bg-blue-500/10",
+  },
+  {
+    name:"Twitter",
+    icon: <FaSquareXTwitter/>,
+    url: " https://twitter.com ",
+    color:"hover:text-sky-400",
+    bgColor:"hover:bg-sky-500/10",
+  },
+  {
+    name:"Email",
+    icon: <IoMdMail/>,
+    url: " test@gmail.com ",
+    color:"hover:text-green-400",
+    bgColor:"hover:bg-green-500/10",
+  },
+];

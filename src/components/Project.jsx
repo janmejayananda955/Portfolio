@@ -11,7 +11,7 @@ export default function Project() {
   return (
     <section
       id="projects"
-      className="min-h-screen overflow-hidden scroll-mt-20 gap-6 p-4 py-20 text-white sm:px-6 md:p-12 lg:m-0"
+      className="min-h-screen overflow-hidden  gap-6 p-4 py-20 text-white sm:px-6 md:p-12 lg:m-0"
       data-aos="fade-up"
       data-aos-duration="500"
     >

@@ -3,7 +3,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 export default function ProjectCard({ project, index }) {
   return (
-    <div className="group relative" data-aos="fade-up" data-aos-delay={index * 100}>
+    <section className="group relative" data-aos="fade-up" data-aos-delay={index * 100}>
       <div
         className="rounded-2xl overflow-hidden h-[100%] border transition-all duration-500
       bg-gray-800 hover:border-gray-700 hover:shadow-2xl hover:shadow-blue-500/10
@@ -82,6 +82,6 @@ export default function ProjectCard({ project, index }) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

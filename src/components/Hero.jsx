@@ -5,8 +5,10 @@ import instagram from "/instagram.png";
 import linkdin from "/linkdin.png";
 import github from "/github.png";
 import twitter from "/twitter.png";
-import imghero from "/imghero.png";
-import janmejaya from "/JANMEJAYA.pdf";
+import imghero from "/Janmejaya_Image.png";
+import janmejaya from "/Janmejaya_resume_01.pdf";
+import { Typewriter } from "react-simple-typewriter";
+import { FaDev } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -29,33 +31,73 @@ export default function Hero() {
         >
           <div className="absolute -z-10 w-60 h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 -left-12"></div>
           <header>
-            <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold text-white mb4">
+            <h1 className="text-4xl mb-2 mx-auto sm:text-4xl md:text-5xl font-bold text-white mb4">
               Janmejaya Nanda
             </h1>
-            <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-[#3e0f4a] md:text-[#c744ec] mb-2">
-              Frontend Devleoper
+            <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-white mb-2">
+              I'm{" "}
+              <span className="text-[#3e0f4a] md:text-[#c744ec] font-semibol ">
+                <Typewriter
+                  words={[
+                    `Web Developer`,
+                    "Backend Developer",
+                    "FullStack Developer",
+                  ]}
+                  loop={true}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1500}
+                />
+              </span>
             </h2>
           </header>
-          <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, nemo! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Repellendus, nemo!
+          <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6 mx-auto font-serif">
+            I’m a passionate developer who loves building impactful digital
+            experiences. With a strong foundation in{" "}
+            <span className="text-purple-400">Java</span>,
+            <span className="text-blue-400"> Spring Boot</span>, and modern web
+            technologies, I enjoy crafting clean, scalable, and user-friendly
+            solutions. Always curious and eager to learn, I turn ideas into
+            reality through code.
           </p>
+
           <div className="flex items-center space-x-4 mb-6">
             <a href="#">
-              <img src={github} alt="github" className="w-11 h-11 drop-shadow-lg drop-shadow-white" />
+              <img
+                src={github}
+                alt="github"
+                className="w-11 h-11 drop-shadow-lg drop-shadow-white"
+              />
             </a>
             <a href="#">
-              <img src={linkdin} alt="linkdin" className="w-11 h-11 drop-shadow-lg drop-shadow-blue-400" />
+              <img
+                src={linkdin}
+                alt="linkdin"
+                className="w-11 h-11 drop-shadow-lg drop-shadow-blue-400"
+              />
             </a>
             <a href="#">
-              <img src={twitter} alt="twitter" className="w-11 h-11 drop-shadow-lg drop-shadow-white" />
+              <img
+                src={twitter}
+                alt="twitter"
+                className="w-11 h-11 drop-shadow-lg drop-shadow-white"
+              />
             </a>
             <a href="#">
-              <img src={facebook} alt="facebook" className="w-11 h-11 drop-shadow-lg drop-shadow-blue-400" />
+              <img
+                src={facebook}
+                alt="facebook"
+                className="w-11 h-11 drop-shadow-lg drop-shadow-blue-400"
+              />
             </a>
             <a href="#">
-              <img src={instagram} alt="instagram" className="w-11 h-11 drop-shadow-lg drop-shadow-orange-400" />
+              <img
+                src={instagram}
+                alt="instagram"
+                className="w-11 h-11 drop-shadow-lg drop-shadow-orange-400"
+              />
             </a>
           </div>
           <a href={janmejaya} download>
