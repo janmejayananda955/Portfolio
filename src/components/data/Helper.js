@@ -89,3 +89,32 @@ export const PROJECTS = [
     category: "Web App",
   },
 ];
+
+
+
+export const timelineData = [
+  {
+    year: "2021",
+    title: "Started BCA",
+    description: "Learned C, Java basics, DBMS.",
+    color: "bg-purple-500",
+  },
+  {
+    year: "2022",
+    title: "Web Development",
+    description: "HTML, CSS, JS, React basics.",
+    color: "bg-blue-500",
+  },
+  {
+    year: "2023",
+    title: "Java & Backend",
+    description: "Core Java, JDBC, Servlets, REST APIs.",
+    color: "bg-green-500",
+  },
+  {
+    year: "2024",
+    title: "Spring Boot & Full Stack",
+    description: "Spring Boot, MySQL, Angular basics.",
+    color: "bg-pink-500",
+  },
+];
