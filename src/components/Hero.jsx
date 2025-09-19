@@ -21,11 +21,11 @@ export default function Hero() {
       <main
         id="home"
         className="flex flex-col md:flex-row items-center justify-center w-full px-4 
-      md:px-52 md:pb-24 md:pt-32 pt-24 mt-14 md:mt-0 z-10"
+      md:px-15 lg:px-40 md:pb-24 md:pt-32 pt-24 mt-14 md:mt-0 z-10"
       >
         {/* Left Section */}
         <section
-          className="flex-1 mr-10 sm:mr-28 md:text-left mt-10 md:mt-0 w-2xs sm:w-0 relative"
+          className="flex-1 md:mr-12 md:text-left mt-10 md:mt-0 w-2xs relative"
           data-aos="fade-up"
           data-aos-delay="500"
         >

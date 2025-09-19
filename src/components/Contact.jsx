@@ -152,7 +152,7 @@ export default function Contact() {
             {/* Social Links */}
             <div>
               <h3 className="text-2xl font-medium mb-6 ">Connect with me</h3>
-              <div className="grid grid-cols-2  gap-2 sm:ml-">
+              <div className="grid grid-cols-2 justify-center items-center gap-2 sm:ml-2">
                 {SOCIAL_LINKS.map((link, index) => (
                   <a
                     key={index}
@@ -160,7 +160,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`
-            flex items-center justify-center w-40 sm:w-60 md:w-80 lg:w-50  xl:w-60 h-12 rounded-xl text-2xl
+            flex items-center justify-center w-full sm:w-60 md:w-80 lg:w-50  xl:w-60 h-12 rounded-xl text-2xl
             transition-all duration-300 text-gray-400 bg-gray-800/40 
             ${link.color} ${link.bgColor}
           `}
