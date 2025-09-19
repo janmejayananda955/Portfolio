@@ -64,35 +64,35 @@ export default function Hero() {
           </p>
                   {/* icons */}
           <div className="flex items-center space-x-4 mb-6">
-            <a href="#">
+            <a href="https://github.com/janmejayananda955" target="_blank" rel="noopener noreferrer">
               <img
                 src={github}
                 alt="github"
                 className="w-11 h-11 drop-shadow-lg drop-shadow-white"
               />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/janmejayananda955/" target="_blank" rel="noopener noreferrer">
               <img
                 src={linkdin}
                 alt="linkdin"
                 className="w-11 h-11 drop-shadow-lg drop-shadow-blue-400"
               />
             </a>
-            <a href="#">
+            <a href="https://x.com/Janmejaya_955?t=08mD9OBmjYggM5jB2v6BvA&s=08" target="_blank" rel="noopener noreferrer">
               <img
                 src={twitter}
                 alt="twitter"
                 className="w-11 h-11 drop-shadow-lg drop-shadow-white"
               />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/share/1GFeVAHHQp/" target="_blank" rel="noopener noreferrer">
               <img
                 src={facebook}
                 alt="facebook"
                 className="w-11 h-11 drop-shadow-lg drop-shadow-blue-400"
               />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/_janmejaya_09?igsh=MTAyNXl2YWZyNmJ4bg==" target="_blank" rel="noopener noreferrer">
               <img
                 src={instagram}
                 alt="instagram"

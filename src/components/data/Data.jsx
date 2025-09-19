@@ -246,7 +246,7 @@ export const SOCIAL_LINKS = [
   {
     name:"Linkdin",
     icon: <FaLinkedin/>,
-    url: " https://www.linkedin.com/in/janmejaya-nanda-a45478288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
+    url: " https://www.linkedin.com/in/janmejayananda955/",
     color:"hover:text-blue-400",
     bgColor:"hover:bg-blue-500/10",
   },

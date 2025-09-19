@@ -1,13 +1,17 @@
 import React from "react";
 import { useState, useRef } from "react";
-
 import { LuSend } from "react-icons/lu";
 import { CONTACT_INFO, SOCIAL_LINKS } from "./data/Data";
-
 import TextInput from "./input/TextInput";
 import SuccessModel from "./SuccessModel";
+import emailjs from "@emailjs/browser";
+
 
 export default function Contact() {
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -27,11 +31,31 @@ export default function Contact() {
     setIsSubmitting(true);
 
     // Simulate API all
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+     try {
+      // ⚡ Replace with your own serviceId, templateId, and publicKey from EmailJS dashboard
+      const result = await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        publicKey
+      );
 
-    setIsSubmitting(false);
-    setShowSuccess(true);
-    setFormData({ name: "", email: "", message: "" });
+      console.log("SUCCESS!", result.text);
+      setShowSuccess(true);
+      setFormData({ name: "", email: "", message: "" });
+
+      setTimeout(() => setShowSuccess(false), 3000);
+      setIsSubmitting(false);
+
+    } catch (error) {
+      console.error("FAILED...", error.text || error);
+      alert("Something went wrong. Please try again!");
+    }
+
 
     //Auto hide success message after 3 seconds
     setTimeout(() => {
