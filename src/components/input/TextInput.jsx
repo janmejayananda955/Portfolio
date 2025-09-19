@@ -11,6 +11,7 @@ function TextInput({value, handleInputChange, textarea, label}) {
         focus:border-blue-500 focus:bg-gray-800/70'
         value={value}
         onChange={({target}) => handleInputChange(target.value)}
+        required
         />
         <label className='text-sm absolute left-4 top-2 pointer-events-none
         origin-left'>
