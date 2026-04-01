@@ -1,95 +1,84 @@
 import PROJECT_IMG_1 from "/PROJECT_IMG_1.png"
 import PROJECT_IMG_2 from "/PROJECT_IMG_2.png"
 import PROJECT_IMG_3 from "/PROJECT_IMG_3.png"
-
+import PROJECT_IMG_4 from "/PROJECT_IMG_4.png"
+import PROJECT_IMG_5 from "/PROJECT_IMG_5.png"
+import PROJECT_IMG_6 from "/PROJECT_IMG_6.png"
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Placement Automation System",
     description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration",
+      "Full-stack placement management app with role-based dashboards for Students and Recruiters, JWT authentication, job application tracking, and real-time updates. Backend on Render, frontend on Netlify with Neon DB.",
     image: PROJECT_IMG_1,
-    tags: ["React", "Tailwind", "Framer motion"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: false,
+    tags: ["Spring Boot", "React", "JWT", "NeonDB"],
+    liveUrl: "https://janmejaya-placement-automation-system.netlify.app",
+    githubUrl: "https://github.com/janmejayananda955/Placement_Automation_and_Student_Requirement_System",
+    featured: true,
     category: "Full Stack",
   },
   {
     id: 2,
-    title: "Blog App with AI Post Generator",
+    title: "Developer Portfolio",
     description:
-      "A full-stack blog app using the MERN stack with full Markdown support, tag",
+      "Personal portfolio website built with React and Tailwind CSS, showcasing projects, skills, and experience with smooth animations and a fully responsive design.",
     image: PROJECT_IMG_2,
-    tags: ["React", "Node.js", "MongoDB", "Tailwind"],
-    liveUrl: "https://youtu.be/tUnGudIBBjQ",
-    githubUrl: "#",
+    tags: ["React", "Tailwind CSS", "Vite"],
+    liveUrl: "https://janmejaya-portfolio.netlify.app/",
+    githubUrl: "https://github.com/janmejayananda955/Portfolio",
     featured: true,
-    category: "Full Stack",
+    category: "Web App",
   },
   {
     id: 3,
-    title: "Task Management App",
+    title: "Hospital Management System",
     description:
-      "Collaborative project management tool with real-time updates, team chat, and",
+      "Java-based hospital management web app using Servlet and JSP for managing patient records, doctor assignments, and hospital operations with a MySQL database.",
     image: PROJECT_IMG_3,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-    liveUrl: "https://youtu.be/fZK57PxKC-0",
-    githubUrl: "#",
-    featured: true,
+    tags: ["Java", "Servlet", "JSP", "MySQL"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/janmejayananda955/Hospital_mgmt",
+    featured: false,
     category: "Web App",
   },
   {
     id: 4,
-    title: "Task Management App",
+    title: "Freshers Party – Event Website",
     description:
-      "Collaborative project management tool with real-time updates, team chat, and",
-    image: PROJECT_IMG_3,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-    liveUrl: "https://youtu.be/fZK57PxKC-0",
-    githubUrl: "#",
-    featured: true,
-    category: "Web App",
+      "A live event landing page built for a friend using React and Vite, featuring event details, schedule, and a responsive UI deployed on Netlify.",
+    image: PROJECT_IMG_1,
+    tags: ["React", "Vite", "CSS", "HTML"],
+    liveUrl: "https://freshersparty.netlify.app/",
+    githubUrl: "https://github.com/janmejayananda955/project",
+    featured: false,
+    category: "Frontend",
   },
   {
     id: 5,
-    title: "Task Management App",
+    title: "Student Management System",
     description:
-      "Collaborative project management tool with real-time updates, team chat, and",
-    image: PROJECT_IMG_3,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-    liveUrl: "https://youtu.be/fZK57PxKC-0",
-    githubUrl: "#",
-    featured: true,
-    category: "Web App",
+      "A beginner-level Spring Boot REST API project for managing student records — built during learning phase to understand Spring Boot fundamentals, CRUD operations, and JPA.",
+    image: PROJECT_IMG_2,
+    tags: ["Spring Boot", "Java", "REST API", "JPA"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/janmejayananda955/SpringBoot-Projects",
+    featured: false,
+    category: "Backend",
   },
   {
-    id:6,
-    title: "Task Management App",
+    id: 6,
+    title: "Coffee Web Page",
     description:
-      "Collaborative project management tool with real-time updates, team chat, and",
+      "A static coffee shop landing page — my first HTML and CSS project. Clean layout with product sections, built to learn web fundamentals from scratch.",
     image: PROJECT_IMG_3,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-    liveUrl: "https://youtu.be/fZK57PxKC-0",
-    githubUrl: "#",
-    featured: true,
-    category: "Web App",
-  },
-  {
-    id: 7,
-    title: "Task Management App",
-    description:
-      "Collaborative project management tool with real-time updates, team chat, and",
-    image: PROJECT_IMG_3,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-    liveUrl: "https://youtu.be/fZK57PxKC-0",
-    githubUrl: "#",
-    featured: true,
-    category: "Web App",
+    tags: ["HTML", "CSS"],
+    liveUrl: "https://janmejayananda955.github.io/Coffee-Web-Page/",
+    githubUrl: "https://github.com/janmejayananda955/Coffee-Web-Page",
+    featured: false,
+    category: "Frontend",
   },
 ];
-
 
 
 export const timelineData = [
